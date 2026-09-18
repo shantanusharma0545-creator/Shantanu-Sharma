@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shantanu Sharma</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 30px;
+        }
+
+        .box {
+            background: white;
+            margin: 30px auto;
+            padding: 25px;
+            max-width: 500px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px #ccc;
+        }
+
+        button {
+            background: #222;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Hi, I'm Shantanu 👋</h1>
+        <p>Student | Learner | Future Developer</p>
+    </header>
+
+    <div class="box">
+        <h2>About Me</h2>
+        <p>
+            Hello! My name is Shantanu Sharma.
+            I am learning HTML, coding and technology.
+        </p>
+    </div>
+
+    <div class="box">
+        <h2>My Skills</h2>
+        <p>🌐 HTML</p>
+        <p>💻 Coding</p>
+        <p>📚 Learning</p>
+    </div>
+
+    <div class="box">
+        <h2>My Goal 🚀</h2>
+        <p>
+            I want to learn technology and become a successful developer.
+        </p>
+        <button onclick="alert('Thanks for visiting! 😊')">
+            Click Me
+        </button>
+    </div>
+
+    <footer>
+        © 2026 Shantanu Sharma
+    </footer>
+
+</body>
+</html>
